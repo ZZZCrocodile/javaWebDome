@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('拉取代码') {
             steps {
-               checkout([$class: 'GitSCM', branches: [[name: '*/${branch}']], extensions: [], userRemoteConfigs: [[credentialsId: 'a6271225-f052-4eef-8204-fc9a7f9a40f6', url: 'https://github.com/ZZZCrocodile/webDome']]])
+               checkout([$class: 'GitSCM', branches: [[name: "*/${branch}"]], extensions: [], userRemoteConfigs: [[credentialsId: 'a6271225-f052-4eef-8204-fc9a7f9a40f6', url: 'https://github.com/ZZZCrocodile/webDome']]])
             }
         }
 
