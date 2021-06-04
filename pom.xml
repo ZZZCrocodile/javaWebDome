@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>demoweb</name>
-    <packaging>war</packaging>
+    <!--<packaging>war</packaging>-->
 
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -35,11 +35,11 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
+      <!--  <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <version>3.0.0</version>
-        </dependency>
+        </dependency>-->
 
 
     </dependencies>
